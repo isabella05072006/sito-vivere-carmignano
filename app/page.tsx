@@ -203,7 +203,7 @@ export default function AssociazioneWebsite() {
 
               <textarea
                 placeholder="Messaggio"
-                rows="5"
+                rows={5}
                 className="w-full border rounded-2xl px-4 py-3"
               ></textarea>
 
