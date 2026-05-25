@@ -85,7 +85,7 @@ export default function AssociazioneWebsite() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Supporto alimentare',
+                title: 'Raccolta fondi San Michele',
                 text: 'Distribuzione di beni di prima necessità per famiglie in difficoltà.',
               },
               {
