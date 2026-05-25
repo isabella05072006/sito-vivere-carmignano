@@ -39,7 +39,7 @@ export default function AssociazioneWebsite() {
 
             <div className="flex flex-wrap gap-4">
               <button className="bg-white text-[#C89A2B] px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">
-                Dona ora
+                Dammi un'idea
               </button>
 
               <button className="bg-white px-6 py-3 rounded-2xl font-semibold hover:bg-white hover:text-green-700 transition">
@@ -85,7 +85,7 @@ export default function AssociazioneWebsite() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Raccolta fondi San Michele',
+                title: 'Supporto alimetare',
                 text: 'Distribuzione di beni di prima necessità per famiglie in difficoltà.',
               },
               {
