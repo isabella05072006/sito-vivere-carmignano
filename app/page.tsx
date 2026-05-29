@@ -64,9 +64,9 @@ export default function AssociazioneWebsite() {
           <h3 className="text-4xl font-bold mb-6">Chi siamo</h3>
 
           <p className="text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
-            Siamo dei ragazzi impegnata nel supporto
-            della comunità locale. Crediamo nell'unicità del nostro territorio e ci impegnamo per preservarlo; Organizziamo attività sociali, raccolte
-            fondi, eventi di sensibilizzazione. L'obittivo? Fare la differenza.
+            Siamo dei ragazzi impegnati nel supporto
+            della comunità locale. Crediamo nell'unicità del nostro territorio e ci impegniamo per preservarlo; Organizziamo attività sociali, raccolte
+            fondi, eventi di sensibilizzazione. L'obiettivo? Fare la differenza.
           </p>
         </div>
       </section>
