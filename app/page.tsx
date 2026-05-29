@@ -64,10 +64,9 @@ export default function AssociazioneWebsite() {
           <h3 className="text-4xl font-bold mb-6">Chi siamo</h3>
 
           <p className="text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
-            Siamo un'associazione senza scopo di lucro impegnata nel supporto
-            della comunità locale. Organizziamo attività sociali, raccolte
-            fondi, eventi educativi e iniziative per aiutare chi si trova in
-            difficoltà.
+            Siamo dei ragazzi impegnata nel supporto
+            della comunità locale. Crediamo nell'unicità del nostro territorio e ci impegnamo per preservarlo; Organizziamo attività sociali, raccolte
+            fondi, eventi di sensibilizzazione. L'obittivo? Fare la differenza.
           </p>
         </div>
       </section>
