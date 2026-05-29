@@ -75,7 +75,7 @@ export default function AssociazioneWebsite() {
       <section id="progetti" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <h3 className="text-4xl font-bold mb-4">I nostri progetti</h3>
+            <h3 className="text-4xl font-bold mb-4">I nostri obiettivi</h3>
             <p className="text-gray-600 text-lg">
               Alcune delle iniziative attive sul territorio.
             </p>
@@ -84,16 +84,16 @@ export default function AssociazioneWebsite() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Supporto alimetare',
-                text: 'Distribuzione di beni di prima necessità per famiglie in difficoltà.',
+                title: 'Sensibilizzazione',
+                text: 'Lavorare per far riflettere le persone in quelli che sono gli aspetti più importanti di una società.',
               },
               {
-                title: 'Doposcuola solidale',
-                text: 'Attività educative gratuite per bambini e ragazzi.',
+                title: 'Impegnare la comunità locale',
+                text: 'Dare un modo ai cittadini di poter contribuirere al benessere collettivo.',
               },
               {
-                title: 'Eventi di comunità',
-                text: 'Incontri, laboratori e iniziative per creare inclusione sociale.',
+                title: 'Migliorare il nostro territorio',
+                text: 'Istituire delle raccolte fondi destinate al cuore del pause: la nostra festa di San MIchele.',
               },
             ].map((item, index) => (
               <div
