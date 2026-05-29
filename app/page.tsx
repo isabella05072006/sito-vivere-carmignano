@@ -3,8 +3,8 @@ export default function AssociazioneWebsite() {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Navbar */}
       <header className="bg-[#EFE6D6]  shadow-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <h1 className="text-3xl font-bold text-[#C89A2B]">
+        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+          <h1 className="text-4xl font-bold text-[#C89A2B]">
             VIVERE CARMIGNANO
           </h1>
 
@@ -27,13 +27,13 @@ export default function AssociazioneWebsite() {
   alt="Logo Vivere Carmignano"
   className="w-[500px] object-contain"
 />
-        <div className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+        <div className="-mt-20 max-w-6xl mx-auto px-6 py-1 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-5xl font-bold leading-tight mb-8">
+            <h2 className="text-6xl font-bold leading-tight mb-8">
               Iniziamo a "VIVERE CARMIGNANO"
             </h2>
 
-            <p className="text-lg mb-8 text-black">
+            <p className="text-lg mb-35 text-black">
               Carmignano è fatta di luoghi, tradizioni e persone. Proprio dalle persone nasce Vivere Carmignano: un'associazione creata con l'obiettivo di promuovere partecipazione, collaborazione e iniziative a favore della comunità.
             </p>
 
@@ -42,7 +42,7 @@ export default function AssociazioneWebsite() {
                 Dammi un'idea
               </button>
 
-              <button className="bg-white px-6 py-3 rounded-2xl font-semibold hover:bg-white hover:text-green-700 transition">
+              <button className="bg-white px-6 py-4 rounded-2xl font-semibold hover:bg-white hover:text-green-700 transition">
                 Diventa volontario
               </button>
             </div>
