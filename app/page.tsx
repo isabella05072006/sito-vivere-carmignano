@@ -2,61 +2,148 @@ export default function AssociazioneWebsite() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Navbar */}
-      <header className="bg-[#EFE6D6]  shadow-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
-          <h1 className="text-4xl font-bold text-[#C89A2B]">
-            VIVERE CARMIGNANO
-          </h1>
-
-          <nav className="hidden md:flex gap-6 text-sm font-medium">
-            <a href="#home" className="hover:text-green-700">Home</a>
-            <a href="#chi-siamo" className="hover:text-green-700">Chi siamo</a>
-            <a href="#progetti" className="hover:text-green-700">Progetti</a>
-            <a href="#eventi" className="hover:text-green-700">Eventi</a>
-            <a href="#contatti" className="hover:text-green-700">Contatti</a>
-          </nav>
-        </div>
-      </header>
+      
 
       {/* Hero */}
-      <section
-        id="home"
-        className="bg-gradient-to-br from-[#E2D2B8] to-[#F3EBDD] text-[#C89A2B]"
-      ><img
-  src="/images/logo.png"
-  alt="Logo Vivere Carmignano"
-  className="w-[500px] object-contain"
+      {/* HERO */}
+
+<section id="home">
+
+{/* BARRA SOPRA */}
+<header className="
+absolute
+top-0
+left-0
+w-full
+z-50
+px-16
+py-8
+flex
+justify-between
+items-center
+">
+
+<img
+src="/images/logo.png"
+alt="Logo"
+className="absolute
+top-[-5px]
+left-[20px]
+w-[250px]
+z-50
+"
+
 />
-        <div className="-mt-20 max-w-6xl mx-auto px-6 py-1 grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-6xl font-bold leading-tight mb-8">
-              Iniziamo a "VIVERE CARMIGNANO"
-            </h2>
 
-            <p className="text-lg mb-35 text-black">
-              Carmignano è fatta di luoghi, tradizioni e persone. Proprio dalle persone nasce Vivere Carmignano: un'associazione creata con l'obiettivo di promuovere partecipazione, collaborazione e iniziative a favore della comunità.
-            </p>
+<nav className="absolute
+top-[-0,4px]
+right-[300px]
+w-[250px]
+z-50 flex gap-8 text-white text-xl whitespace-nowrap">
 
-            <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-[#C89A2B] px-6 py-3 rounded-2xl font-semibold shadow hover:scale-105 transition">
-                Dammi un'idea
-              </button>
+<a href="#home">Home</a>
 
-              <button className="bg-white px-6 py-4 rounded-2xl font-semibold hover:bg-white hover:text-green-700 transition">
-                Diventa volontario
-              </button>
-            </div>
-          </div>
+<a href="#chi-siamo">
+Chi siamo
+</a>
 
-          <div>
-            <img
-              src="https://media.gettyimages.com/id/2225799512/it/foto/tuscany-the-castle-of-carmignano.jpg?s=612x612&w=0&k=20&c=R1Y8gkA-SOzBzylE6n78iIHMVUHr7eTuCtyzLgbnL9Y="
-              alt="Volontari"
-              className="rounded-3xl shadow-2xl w-full object-cover h-[420px]"
-            />
-          </div>
-        </div>
-      </section>
+<a href="#progetti">
+Progetti
+</a>
+
+<a href="#eventi">
+Eventi
+</a>
+
+<a href="#contatti">
+Contatti
+</a>
+
+</nav>
+
+</header>
+
+
+
+
+{/* IMMAGINE GRANDE */}
+
+<div className="relative h-[90vh]">
+
+  
+
+
+  {/* FOTO */}
+  <img
+    src="https://www.sposarsiacarmignano.it/wp-content/uploads/2021/10/Campano-8-2.jpg"
+    alt="Carmignano"
+    className="
+      w-full
+      h-full
+      object-cover
+    "
+  />
+
+</div>
+
+
+
+{/* BLOCCO BEIGE */}
+
+<div
+className="
+bg-[#E2D2B8]
+px-24
+py-28
+"
+>
+
+<h1
+className="
+-mt-10
+text-[90px]
+leading-[0.92]
+font-bold
+text-[#C89A2B]
+"
+>
+
+Iniziamo a
+<br />
+
+"VIVERE
+<br />
+
+CARMIGNANO"
+
+</h1>
+
+
+
+<p
+className="
+mt-10
+max-w-[1100px]
+text-[32px]
+leading-relaxed
+text-white
+"
+>
+
+Carmignano è fatta di luoghi,
+tradizioni e persone.
+
+Proprio dalle persone nasce
+Vivere Carmignano:
+un'associazione creata
+per promuovere partecipazione,
+collaborazione e iniziative.
+
+</p>
+
+</div>
+
+</section>
 
       {/* Chi siamo */}
       <section id="chi-siamo" className="py-20 bg-white">
@@ -126,7 +213,7 @@ export default function AssociazioneWebsite() {
               <p className="text-green-700 font-semibold mb-2">28 Giugno 2026, Ritrovo ore 18:00</p>
               <h4 className="text-2xl font-bold mb-3">Pulizia delle strade</h4>
               <p className="text-gray-600 leading-7">
-                Un'occasione per contribuire concretamente al territorio, conoscere nuove persone e dare inizio a un percorso di partecipazione attiva.
+                Un'occasione per contribuire concretamente al territorio, conoscere nuove persone e dare inizio ad un percorso di partecipazione attiva.
               </p>
             </div>
 
@@ -134,7 +221,7 @@ export default function AssociazioneWebsite() {
               <p className="text-green-700 font-semibold mb-2">28 Giugno 2026</p>
               <h4 className="text-2xl font-bold mb-3">Banchetto sociale</h4>
               <p className="text-gray-600 leading-7">
-                L'iniziativa è aperta a chiunque voglia partecipare, anche semplicemente per curiosita o per conoscere il progetto dell'associazione.
+                L'iniziativa è aperta a chiunque voglia partecipare, anche semplicemente per curiosità o per conoscere il progetto dell'associazione.
               </p>
             </div>
           </div>
@@ -174,7 +261,7 @@ export default function AssociazioneWebsite() {
 
               <div className="space-y-4 text-gray-600">
                 <p>
-                  <strong>Email:</strong> viverecarmigano@gmail.com
+                  <strong>Email:</strong> viverecarmignano@gmail.com
                 </p>
 
                 <p>
